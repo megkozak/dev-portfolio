@@ -24,10 +24,11 @@ body {
 #root {
   display: block;
 }
-
 }
-img {
-  border-radius: 15px;
+.meg_img, img {
+  border-radius:15px;
+  margin-bottom:1rem
+  width:95px;
 }
 
 .container_name {
@@ -36,14 +37,20 @@ img {
 
 }
 .container_role {
+  margin-top: -3rem;
   padding-top:.75rem;
   font-size:18px
 }
-.project_links {
+.project_links-container {
   display:flex;
   flex-direction:column;
   align-items:center;
   margin-top:2.25rem
 }
+.meg_links-container-div {
+  display:flex;
+  flex-direction: column;
+  text-align: vertical;
 
+}
 @media only screen and (max-width:600px)}
