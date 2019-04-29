@@ -9,7 +9,6 @@ body {
   margin: 0;
   padding: 0;
   flex: 1;
-  justify-content: center;
   height: 100vh
 }
 
@@ -20,40 +19,54 @@ body {
   max-width:800px;
   margin:60px auto;
   text-align: center;
+}
 
 #root {
-  display: block;
+  display:block;
 }
-}
-.meg_img, img {
-  border-radius:15px;
-  margin-bottom:1rem
-  width:95px;
+
+img {
+  border-radius:50%/50%;
+  margin-bottom:.5rem;
+  width: 300px;
+  height: 300px;
 }
 
 .container_name {
-  font-size:25px;
+  font-weight: 900;
+  font-size:22px;
   font-weight:700
 
 }
 .container_role {
-  margin-top: -3rem;
+  margin-top:-3rem;
   padding-top:.75rem;
-  font-size:18px
+  font-size:16px
 }
-.project_links-container {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  margin-top:2.25rem
-}
-.meg_links-container-div {
+.meg_links-container {
   display:flex;
   flex-direction: column;
+  align-items: center;
+  margin:1.5rem;
+  padding: 5px;
+}
+.project_links {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
   text-align: vertical;
+  margin-bottom: 10px;
 }
-.social_media_icons-div a{
-  margin-bottom:1rem
-
+.social_links a {
+  font-size: 35px;
+  /* margin-top:1rem; */
+  padding: 12px;
+  flex-direction: row;
+  display: inline-block;
+  line-height: 50px;
 }
+/* a .fab fa-twitter {
+  padding: 5px;
+  font-size: 40px;
+} */
 @media only screen and (max-width:600px)}
