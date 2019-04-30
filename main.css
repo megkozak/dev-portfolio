@@ -33,6 +33,7 @@ html {
 .container_name {
   font-size: 22px;
   font-weight: 900;
+
 }
 .container_role {
   margin-top:-3rem;
@@ -47,7 +48,7 @@ html {
   padding: 5px;
 }
 .project_links {
-  font-size: 22px;
+  font: 20px "Source Sans Pro", sans-serif;
   display: flex;
   flex-direction: column;
   text-align: vertical;
@@ -63,4 +64,3 @@ html {
 }
 
 {@media only screen and (max-width:600px)}
-
