@@ -24,10 +24,10 @@ html {
 }
 
 .meg_img img {
-  border-radius: 50%/50%;
-  margin-bottom: .5rem;
-  width: 275px;
-  height: 275px;
+  border-radius:50%/50%;
+  margin-bottom:.5rem;
+  width: 240px;
+  height: 240px;
 }
 
 .container_name {
@@ -61,8 +61,5 @@ html {
   display: inline-block;
   line-height: 50px;
 }
-/* a .fab fa-twitter {
-  padding: 5px;
-  font-size: 40px;
-} */
+
 {@media only screen and (max-width:600px)}
