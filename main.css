@@ -18,14 +18,14 @@ html {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  max-width:800px;
+  max-width: 800px;
   margin:60px auto;
   text-align: center;
 }
 
 .meg_img img {
-  border-radius:50%/50%;
-  margin-bottom:.5rem;
+  border-radius: 50%/50%;
+  margin-bottom: .5rem;
   width: 275px;
   height: 275px;
 }
@@ -37,13 +37,13 @@ html {
 .container_role {
   margin-top:-3rem;
   padding-top:.75rem;
-  font-size:16px
+  font-size: 16px;
 }
 .meg_links-container {
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin:1.5rem;
+  margin: 1.5rem;
   padding: 5px;
 }
 .project_links {
@@ -66,4 +66,3 @@ html {
   font-size: 40px;
 } */
 {@media only screen and (max-width:600px)}
-
