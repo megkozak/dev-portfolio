@@ -16,11 +16,16 @@ html {
 }
 
 .Navbar {
-  background-color: #70a8c1;
+  background-color: #ffffff;
   display: flex;
   padding: 16px;
   font-family: sans-serif;
   color: white;
+  height: 50px;
+}
+
+Navbar__Link Navbar__Link-brand img {
+  max-height: 70px;
 }
 
 .Navbar__Link {
