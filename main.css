@@ -15,7 +15,7 @@ html {
   height: 100%;
 }
 
-.Navbar {
+/* .Navbar {
   background-color: #ffffff;
   display: flex;
   padding: 16px;
@@ -68,7 +68,7 @@ Navbar__Link Navbar__Link-brand img {
     position: absolute;
     cursor: pointer;
    }
-}
+} */
 
 
 .container {
